@@ -7,6 +7,8 @@ from utilities.BaseClass import BaseClass
 
 class TestHomePage(BaseClass):
     def test_formsubmission(self, getData):
+        print("Hello World")
+        print("Hello India")
         self.driver.implicitly_wait(3)
         log=self.getlogger()
         homepage=Homepage(self.driver)
