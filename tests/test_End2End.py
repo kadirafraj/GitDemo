@@ -6,6 +6,7 @@ class TestOne(BaseClass):
     def test_e2e(self):
         print("Hello World")
         print("Saturday")
+        print("Rockstar")
         log=self.getlogger()
         homepage= Homepage(self.driver)
         checkoutpage=homepage.shopitems()
