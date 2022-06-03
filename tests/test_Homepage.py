@@ -13,6 +13,7 @@ class TestHomePage(BaseClass):
         print("Hello World1")
         print("Hello India1")
         print("Kadir1")
+        print("Friday")
         self.driver.implicitly_wait(3)
         log=self.getlogger()
         homepage=Homepage(self.driver)
